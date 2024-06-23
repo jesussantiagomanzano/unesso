@@ -128,10 +128,10 @@
     </div>
     </div>
 
-    <div th:replace="footer :: footer"></div>
+    <footer th:insert="footer.html"></footer>
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="http://localhost:8080/javaScript.js/funcionamiento.js"></script>
+    <script th:src="@{/javaScript.js/funcionamiento.js}"></script>
 </body>
 
 </html>
