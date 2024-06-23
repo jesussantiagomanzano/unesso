@@ -82,7 +82,7 @@ public class AdministradorController {
         String usuarioCorreo = alumno.getUsuario().getCorreo();
         Usuario usuario = usuarioService.findByCorreo(usuarioCorreo);
         if (usuario != null) {
-            //alumno.setCatGrupo(grupoService.findByName(alumno.getCatGrupo().getNombreGrupo()));
+            alumno.setCatGrupo(grupoService.findByName(alumno.getCatGrupo().getNombreGrupo()));
             alumno.setUsuario(usuario);
             alumnoService.saveAlumno(alumno);
             return "redirect:/administrador/alumnos"; // Redirige a la lista de alumnos después de guardar
