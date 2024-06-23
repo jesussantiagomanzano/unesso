@@ -1,0 +1,12 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‡•™ƒ2J$eda7ac4b-2a15-4e3f-9cb7-5d0368c71697
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8†•™ƒ2J$1fbd9de4-f34a-4dac-8e97-5946cf634b1c
+d
+java:S1116"Remove this empty statement.(ßß‡Ÿùÿÿÿÿ8‰•™ƒ2J$c6eb3653-0720-4eef-a2ff-8134ccdf80eb
+š
+java:S1128
+"RRemove this unused import 'org.springframework.web.bind.annotation.DeleteMapping'.(­ìÎªşÿÿÿÿ8¼öÿÁƒ2J$f54af9f0-3402-4eec-91b2-975c68bc310e
+™
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿ8Íı™ƒ2J$30b496c3-a752-4b66-abad-d53cd7ace75f
