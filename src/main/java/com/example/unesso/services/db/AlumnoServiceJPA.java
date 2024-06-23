@@ -82,8 +82,8 @@ public class AlumnoServiceJPA implements  AlumnoService {
 				alumnoValidar.setMatricula(alumno.getMatricula());
 			}
 			
-			if(!alumnoValidar.getUsuario().getUsername().equals(alumno.getUsuario().getUsername())){
-				Usuario usuario = usuarioRepository.findByCorreo(alumno.getUsuario().getUsername());
+			if(!alumnoValidar.getUsuario().getCorreo().equals(alumno.getUsuario().getCorreo())){
+				Usuario usuario = usuarioRepository.findByCorreo(alumno.getUsuario().getCorreo());
 				alumnoValidar.setUsuario(usuario);
 			}
 

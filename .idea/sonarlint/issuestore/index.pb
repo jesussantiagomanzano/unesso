@@ -29,3 +29,5 @@ m
 =src/main/java/com/example/unesso/services/UsuarioService.java,7\9\79d8987485c4e4806bd02395d193c4f30be0e24c
 s
 Csrc/main/java/com/example/unesso/services/db/UsuarioServiceJPA.java,5\f\5fdb0d523aac5c6d4b98c189a5c19611a9a155f6
+c
+3src/main/resources/templates/administrarAlumno.html,f\9\f97e9e1bcd6cc233184c136d421ba71a4d491662

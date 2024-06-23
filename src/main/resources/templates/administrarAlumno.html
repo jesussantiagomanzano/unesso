@@ -52,7 +52,7 @@
     <td><span th:text="${alumno.apellidoM}"> Apellido Materno</span></td>
     <td><span th:text="${alumno.telefono}"> Telefono </span></td>
     <td><span th:text="${alumno.curp}"> CURP </span></td>
-    <td><span th:text="${alumno.usuario.username}"> Usuario </span></td>
+    <td><span th:text="${alumno.usuario} == null ? '': ${alumno.usuario.correo}"> Usuario </span></td>
     <td>
         <a th:href="@{/administrador/editar/{id}(id=${alumno.idAlumno})}" class="btn btn-warning"> Editar </a>
         <a th:href="@{/administrador/eliminar/{id}(id=${alumno.idAlumno})}" class="btn btn-danger"> Eliminar </a>

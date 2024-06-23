@@ -61,7 +61,7 @@ public class AdministradorController {
     @GetMapping("/alumnos")
     public String alumnos(Model model){
         model.addAttribute("listaAlumnos", alumnoService.alumnos());
-        return "administrarAlumno";
+        return "/administrarAlumno";
     }
 
     @GetMapping("/fechas")
@@ -74,12 +74,12 @@ public class AdministradorController {
         model.addAttribute("carreras", catCarreraService.listaCarreras());
         model.addAttribute("semestres", semestreService.findAll());
         model.addAttribute("alumno", new Alumno());
-        return "/formAgregarAlumno";
+        return "formAgregarAlumno";
     }
 
     @PostMapping("/guardarAlumno")
     public String guardarAlumno(Alumno alumno) {
-        String usuarioCorreo = alumno.getUsuario().getUsername();
+        String usuarioCorreo = alumno.getUsuario().getCorreo();
         Usuario usuario = usuarioService.findByCorreo(usuarioCorreo);
         if (usuario != null) {
             //alumno.setCatGrupo(grupoService.findByName(alumno.getCatGrupo().getNombreGrupo()));

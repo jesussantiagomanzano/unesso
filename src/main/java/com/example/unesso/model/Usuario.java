@@ -25,8 +25,7 @@ public class Usuario {
 	private CatRol catRol;
 	
 	private String correo;
-	
-	@JsonIgnore
+
 	@Column(name = "contraseña")
 	private String contrasenia;
 	
@@ -49,13 +48,6 @@ public class Usuario {
 		this.catRol = catRol;
 	}
 
-	public String getUsername() {
-		return correo;
-	}
-
-	public void setUsername(String username) {
-		this.correo = username;
-	}
 
 	public String getPassword() {
 		return contrasenia;
@@ -73,12 +65,22 @@ public class Usuario {
 		this.estatus = status;
 	}
 
+	public String getCorreo() {
+		return correo;
+	}
+
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
+
 	@Override
 	public String toString() {
-		return "User [idUser=" + idUsuario + ", catRol=" + catRol + ", username=" + correo + ", password=" + contrasenia
-				+ ", status=" + estatus + "]";
+		return "Usuario{" +
+				"idUsuario=" + idUsuario +
+				", catRol=" + catRol +
+				", correo='" + correo + '\'' +
+				", contrasenia='" + contrasenia + '\'' +
+				", estatus=" + estatus +
+				'}';
 	}
-	
-	
-
 }

@@ -1,8 +1,10 @@
 
-b	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(àæø°8‘ï®…„2
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ð‰™âƒ2
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8’ð®…„2
-t
-java:S37768"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(«ãÓ¼ûÿÿÿÿ8˜ð®…„2
+ˆ	java:S112e"FDefine and throw a dedicated exception instead of using a generic one.(àæø°8åÐº™„2J$eb15b048-57b0-4908-a733-cdcf8d98f7d7
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ðÐº™„2J$c1c24a70-76b6-4907-91ed-ee081efcbf64
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ñÐº™„2J$8836d31e-cd8b-45bc-ac77-f07f5f81b4dc
+…
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄÞ8ñÐº™„2J$35774f06-9338-4a31-a7cf-43318ba81e59
+š
+java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(«ãÓ¼ûÿÿÿÿ8ùÐº™„2J$da7bf82d-8c98-4906-b1c5-0cab9373ffed
